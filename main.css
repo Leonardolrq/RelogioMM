@@ -1,0 +1,136 @@
+@font-face{
+    src: url(src/font/Open\ 24\ Display\ St.ttf);
+    font-family: "myFont";
+}
+@font-face{
+    src: url(src/font/sui\ generis\ rg.otf);
+    font-family: "font2";
+}
+@font-face{
+    src: url(src/font/Roboto-Regular.ttf);
+    font-family: "font3";
+}
+.font1{
+    font-family: "myFont";
+}
+.font2{
+    font-family: "font2";
+}
+.font3{
+    font-family: "font3";
+}
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(224,223,202,1) 100%);
+    margin: 0px;
+    width: auto;
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container1{
+    background: rgb(23,23,23);
+    background: radial-gradient(circle, rgba(23,23,23,1) 0%, rgba(38,38,38,1) 100%);
+    width: 80%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    filter: blur(0.5px);
+    filter: brightness(95%);
+
+}
+.container2{
+    background-color: rgb(244, 248, 231);
+    width: 99%;
+    height: 29vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    filter: blur(0.5px);
+    filter: brightness(95%);
+}
+.container3{
+    background: rgb(23,23,23);
+    background: radial-gradient(circle, rgba(23,23,23,1) 0%, rgba(38,38,38,1) 100%);
+    width: 99%;
+    height: 28vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: blur(0.5px);
+    filter: brightness(100%);
+
+}
+.sub-container1{
+    background-color: antiquewhite;
+    height: 4vw;
+    width: 100%;
+    padding-right: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+.sub-container2{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12vw;
+}
+.modulo{
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.size3{
+    display: flex;
+    font-size: 1.5vw;
+    padding-right: 10px;
+    font-family: font3;
+}
+.gradient-text {
+    /* Create the gradient. */
+    background-image: linear-gradient(180deg,  rgba(255,255,255,1),  rgba(224,223,202,1));
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    display: flex;
+}
+.pontos{
+    margin-bottom: 3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    display: flex;
+}
+.dayModule{
+    padding-left: 20px;
+    font-family: font2;
+    font-size: 2vw;
+    margin-top: 1.5vw;
+}
+.divisoria{
+    display: flex;
+    font-family: font2;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
