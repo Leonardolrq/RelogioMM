@@ -18,16 +18,16 @@ function relogio(){
         case 2 :
         diaSemana = "TER";
         break;
-        case 2 :
+        case 3 :
         diaSemana = "QUA";
         break;
-        case 2 :
+        case 4 :
         diaSemana = "QUI";
         break;
-        case 2 :
+        case 5 :
         diaSemana = "SEX";
         break;
-        case 2 :
+        case 6 :
         diaSemana = "SAB";
         break;
         default:
